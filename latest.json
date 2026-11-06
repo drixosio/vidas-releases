@@ -1,0 +1,19 @@
+{
+  "version": "2.1.0",
+  "notes": "- The same file in several formats, like logo.svg, logo.png, and logo.pdf, now shares one tile with a chip for each format. Click a chip to copy, drag, or preview that format. Formats never count as versions, so stacks stay accurate.\n- Compare two versions side by side, with one zoom for both. When they’re the same shape, a slider and a difference view show exactly what changed. Right-click a stack and choose Compare Versions, select any two assets, or press C in a preview.\n- Drag a tile over another tile and pause until it says Stack with, then let go to stack them. Passing over tiles on the way to another app does nothing, and it can be undone.\n- Categories now go Logos, Colors, Fonts, Images, Icons, Videos, and Design Files, with the brand’s identity first and working files last, the order brand guidelines use.\n- Logos, icons, and other artwork with a transparent background now sit on a fine dot grid instead of a checkerboard, so the artwork stands out more.\n- Vidas now finds and installs its own updates on Mac and Windows, with nothing to set up. Settings, Updates still accepts another address if you need one.",
+  "pub_date": "2026-11-06T16:30:58Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRcWc3VVhTSHRqL3owcjF1a0ZJSlRpdVNaQ1NZNGpOS2Y1OFVRY21yZ1F3L01hVWRJWklLZXdWVkpvUTJheDNWT3U0RndqMTJ1bWhBcGJTZU1pMEUwNGlnc2w4OFVmTFFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTgyNjAyCWZpbGU6VmlkYXMuYXBwLnRhci5negl2ZXJzaW9uOjIuMS4wCjBrQ2JlR29YdTFUNklMQlVTK1ZTUE9NVWRVbmdvOG05cTVJVkJYZ1RlTm1XZG9KbVJTRFRhTVZFSHhzNnRuTlJzd05hNlIyaVQ3UVE0OUJ5bzlFaERRPT0K",
+      "url": "https://raw.githubusercontent.com/drixosio/vidas-releases/main/2.1.0/Vidas-2.1.0-mac.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRcWc3VVhTSHRqL3owcjF1a0ZJSlRpdVNaQ1NZNGpOS2Y1OFVRY21yZ1F3L01hVWRJWklLZXdWVkpvUTJheDNWT3U0RndqMTJ1bWhBcGJTZU1pMEUwNGlnc2w4OFVmTFFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTgyNjAyCWZpbGU6VmlkYXMuYXBwLnRhci5negl2ZXJzaW9uOjIuMS4wCjBrQ2JlR29YdTFUNklMQlVTK1ZTUE9NVWRVbmdvOG05cTVJVkJYZ1RlTm1XZG9KbVJTRFRhTVZFSHhzNnRuTlJzd05hNlIyaVQ3UVE0OUJ5bzlFaERRPT0K",
+      "url": "https://raw.githubusercontent.com/drixosio/vidas-releases/main/2.1.0/Vidas-2.1.0-mac.app.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRcWc3VVhTSHRqLzlHZkZuMSs5aGxmZW9RcmhxSVZNWGxVd3JIc0o5N3RqS0tpbEVSbHFFY1lVczdTcWlrU0o4NStWN0hRbW5TMCt6alFvYnUwK3NYRGZzbUt4YzlrdVEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTgyNjU3CWZpbGU6VmlkYXMgMi4xLjAuZXhlCnJaUjJqYWVLS3Y0cGYwcHJZb2kyQWFwVHRKckxzeFhIZXVkRkdYRnpyR3BXZ3NJWnQwdlJqaUw5a3FIRmVzdllCSHVjWTA3RDhTNHZrRDFDbFJMS0NnPT0K",
+      "url": "https://raw.githubusercontent.com/drixosio/vidas-releases/main/2.1.0/Vidas-2.1.0-setup.exe"
+    }
+  }
+}
