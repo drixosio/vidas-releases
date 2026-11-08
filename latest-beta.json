@@ -1,19 +1,19 @@
 {
-  "version": "2.1.1",
-  "notes": "- When a photo comes in as colors, each color now shows its HEX code, so you can check it before importing. Click × on a color to leave it out, or Restore to bring them all back.\n- Select two or more color sets, right-click, and choose Merge Colors to make them one set. A HEX code that appears in more than one set is kept only once, and the merge can be undone.\n- Brand notes no longer take up space above your assets. Click Notes next to the brand name to read or edit them. They save by themselves when you close the card, and a dot on the button shows the brand has notes.",
-  "pub_date": "2026-11-07T01:38:40Z",
+  "version": "2.2.0",
+  "notes": "- Stacks now work in list view. A stack is one row with a versions button that opens it right there, format sets show their format buttons, and you can drag a row onto another to stack them.\n- List view has a new look that matches the grid. Rows sit on the page with larger thumbnails, each name shows its format, size, and file size underneath, and hovering a row brings up Copy and Reveal.\n- Clicking a format on a tile, such as PSD under a JPG, now keeps the tile where it is. Before, the tile could jump to another part of the grid when sorted by type, size, or date.\n- The list view no longer shifts sideways when you scroll fast. Its columns now always fit the window.\n- On a Mac with a Retina screen, dragging an image onto a stack now adds it to that stack. Before, the drop could land on a different tile and start a new stack with it.\n- Dropdowns in Edit, Add, and Settings now follow dark mode instead of showing a bright white field.\n- Many small fixes from a full stress test, including stacks that show only the versions your search or filter allows, and Undo keeping brand notes you wrote after the change.\n- When you flip through a stack by moving along the bottom of its tile, the version you stop on stays in view. Dragging, copying, revealing, or editing from the tile now uses that version.",
+  "pub_date": "2026-11-08T13:05:21Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRcWc3VVhTSHRqLzl0aWpLRGZjemlEajRuUUkrMjN1aUhqY3lNTjVRVTUzZ0gvcG1vSk5ZTWdzSFZUSWlnU0xiTUc4VVA0cjM1dERZeXlsNjlBM0tzV3hZT2liV0Zva3dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDE1NDI5CWZpbGU6VmlkYXMuYXBwLnRhci5negl2ZXJzaW9uOjIuMS4xCkFCb29IYlNhZm9vZ1VDMi9iVlFDNTZkTzlFc09qanBPelZvMU9CenBRTU1XRmk2VENNUisrWDB6eTVhZ21jb2gyRlN0Q1lMZmc5QTd0MDBWQ2RaZ0JBPT0K",
-      "url": "https://raw.githubusercontent.com/drixosio/vidas-releases/main/2.1.1/Vidas-2.1.1-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRcWc3VVhTSHRqLzB1MDZTUVlhMWZMOUc1amNXeTVqTFB0TjUrN2g0cUFZaEo4N3llT2lnd0Z1UTAwZXJPU2JGNXdIRWgwbFA5TmVBcDVpRllXTExmNXErSFd0TFpReVFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDMxMzg0CWZpbGU6VmlkYXMuYXBwLnRhci5negl2ZXJzaW9uOjIuMi4wCnh3UitySHZBdHZReWc4TmZVQStJcjczTmRwVzM1dzhFWTg5MU1BZ1lxN2ZqY215QUdVYVNWRXJVQkI3UDV6TTc5dURYQUljRDk1aW5yaGFKc0RSZUN3PT0K",
+      "url": "https://raw.githubusercontent.com/drixosio/vidas-releases/main/2.2.0/Vidas-2.2.0-mac.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRcWc3VVhTSHRqLzl0aWpLRGZjemlEajRuUUkrMjN1aUhqY3lNTjVRVTUzZ0gvcG1vSk5ZTWdzSFZUSWlnU0xiTUc4VVA0cjM1dERZeXlsNjlBM0tzV3hZT2liV0Zva3dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDE1NDI5CWZpbGU6VmlkYXMuYXBwLnRhci5negl2ZXJzaW9uOjIuMS4xCkFCb29IYlNhZm9vZ1VDMi9iVlFDNTZkTzlFc09qanBPelZvMU9CenBRTU1XRmk2VENNUisrWDB6eTVhZ21jb2gyRlN0Q1lMZmc5QTd0MDBWQ2RaZ0JBPT0K",
-      "url": "https://raw.githubusercontent.com/drixosio/vidas-releases/main/2.1.1/Vidas-2.1.1-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRcWc3VVhTSHRqLzB1MDZTUVlhMWZMOUc1amNXeTVqTFB0TjUrN2g0cUFZaEo4N3llT2lnd0Z1UTAwZXJPU2JGNXdIRWgwbFA5TmVBcDVpRllXTExmNXErSFd0TFpReVFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDMxMzg0CWZpbGU6VmlkYXMuYXBwLnRhci5negl2ZXJzaW9uOjIuMi4wCnh3UitySHZBdHZReWc4TmZVQStJcjczTmRwVzM1dzhFWTg5MU1BZ1lxN2ZqY215QUdVYVNWRXJVQkI3UDV6TTc5dURYQUljRDk1aW5yaGFKc0RSZUN3PT0K",
+      "url": "https://raw.githubusercontent.com/drixosio/vidas-releases/main/2.2.0/Vidas-2.2.0-mac.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRcWc3VVhTSHRqLzVNaFgxRzlCWHpRLy90blVHVW54TDVJa2NPZlpPSlFTcFpDQzVoRllaS0FiN3YxanNUMkRhSDY0WkVPOEZkdk1IWEZzMld0ckVoWHd5b0FzVW81WGdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDE1NTE5CWZpbGU6VmlkYXMgMi4xLjEuZXhlCm1oSm15aWFjM0k0bzdGU1VrM2VDVk1KamgvUDFPNkZZYTJBV0NwVUJwYmp3YkVwWm9sOVNvSFRsR2x4Q0pVdkNmaHZnMEZEbUdRd3FBeUYyQjZ0MkNRPT0K",
-      "url": "https://raw.githubusercontent.com/drixosio/vidas-releases/main/2.1.1/Vidas-2.1.1-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRcWc3VVhTSHRqL3pnU01kOTVWSEFkUjd5R3lOV2Ura05XdjMyYU9SeHFab3JnblhXTmN1Y0NTUUFFWlBvNWlMZDFtNkF1Q1gxL2c0ai9SQzhMWkpMWFBWSkFqWis2QlFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTQzMTIxCWZpbGU6VmlkYXMgMi4yLjAuZXhlCnE0ZkFUeGVTMWFJK1hTVitSdXRlVUhIcnhHazV1Y1hHQXFaUlB5dDNlTi9UVGx2Znlyc2lPU3dKS083NlRKaXN3M2NjNG9BNTcxczZud1FETTZPNERRPT0K",
+      "url": "https://raw.githubusercontent.com/drixosio/vidas-releases/main/2.2.0/Vidas-2.2.0-setup.exe"
     }
   }
 }

@@ -2,11 +2,16 @@
 
 Installers and updates for Vidas. Vidas checks this page by itself and installs new versions, so these downloads are only needed for a first install.
 
-## Vidas 2.1.1
+## Vidas 2.2.0
 
-- Mac: [Vidas-2.1.1.dmg](https://raw.githubusercontent.com/drixosio/vidas-releases/main/2.1.1/Vidas-2.1.1.dmg)
-- Windows: [Vidas-2.1.1-setup.exe](https://raw.githubusercontent.com/drixosio/vidas-releases/main/2.1.1/Vidas-2.1.1-setup.exe)
+- Mac: [Vidas-2.2.0.dmg](https://raw.githubusercontent.com/drixosio/vidas-releases/main/2.2.0/Vidas-2.2.0.dmg)
+- Windows: [Vidas-2.2.0-setup.exe](https://raw.githubusercontent.com/drixosio/vidas-releases/main/2.2.0/Vidas-2.2.0-setup.exe)
 
-- When a photo comes in as colors, each color now shows its HEX code, so you can check it before importing. Click × on a color to leave it out, or Restore to bring them all back.
-- Select two or more color sets, right-click, and choose Merge Colors to make them one set. A HEX code that appears in more than one set is kept only once, and the merge can be undone.
-- Brand notes no longer take up space above your assets. Click Notes next to the brand name to read or edit them. They save by themselves when you close the card, and a dot on the button shows the brand has notes.
+- Stacks now work in list view. A stack is one row with a versions button that opens it right there, format sets show their format buttons, and you can drag a row onto another to stack them.
+- List view has a new look that matches the grid. Rows sit on the page with larger thumbnails, each name shows its format, size, and file size underneath, and hovering a row brings up Copy and Reveal.
+- Clicking a format on a tile, such as PSD under a JPG, now keeps the tile where it is. Before, the tile could jump to another part of the grid when sorted by type, size, or date.
+- The list view no longer shifts sideways when you scroll fast. Its columns now always fit the window.
+- On a Mac with a Retina screen, dragging an image onto a stack now adds it to that stack. Before, the drop could land on a different tile and start a new stack with it.
+- Dropdowns in Edit, Add, and Settings now follow dark mode instead of showing a bright white field.
+- Many small fixes from a full stress test, including stacks that show only the versions your search or filter allows, and Undo keeping brand notes you wrote after the change.
+- When you flip through a stack by moving along the bottom of its tile, the version you stop on stays in view. Dragging, copying, revealing, or editing from the tile now uses that version.
